@@ -35,13 +35,13 @@ First create a directory for the application - then use our template to create a
 
     dotnet new is4empty -n IdentityServer
 
-This will create the following files:
+This will create an ``IdentityServer`` folder with the following files:
 
 * ``IdentityServer.csproj`` - the project file and a ``Properties\launchSettings.json`` file
 * ``Program.cs`` and ``Startup.cs`` - the main application entry point
 * ``Config.cs`` - IdentityServer resources and clients configuration file
 
-You can now use your favorite text editor to edit or view the files. If you want to have Visual Studio support, you can add a solution file like this::
+You can now use your favorite text editor to edit or view the files. If you want to have Visual Studio support, you can add a solution file like this from the ``quickstart`` folder:
 
     cd ..
     dotnet new sln -n Quickstart
